@@ -19,4 +19,9 @@ public class HelloController {
     public String sayHello2() {
         return "say hello too";
     }
+    
+    @GetMapping("/api/hello/sayhello3")
+    public String sayHello3() {
+        return "say hello three";
+    }
 }
