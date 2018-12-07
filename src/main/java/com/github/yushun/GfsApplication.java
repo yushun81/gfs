@@ -8,6 +8,7 @@ public class GfsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(GfsApplication.class, args);
+		System.out.println("11");
 		System.out.println();
 	}
 }
